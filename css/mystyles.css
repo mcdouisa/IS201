@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(169, 165, 165);
+    border: 25px black;
+    border-style: double;
+    margin: 0;
+    padding: 0; 
+}
+
+.nav{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: larger;
+    display: flex;
+    border: 20px black;
+  border-bottom-style: double;
+ 
+}
+
+h1 {
+    color: #1e30f3;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.company{
+    font-family:var(--bs-font-sans-serif) ;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.build{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.body{
+    text-align: center;
+   
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #1e30f3;
+}
+
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #1e30f3;
+}
+
+ol[type="I"] {
+    list-style-type: upper-roman;
+}
+
+
+.list-container ol {
+    display: inline-block;
+    text-align: left; /* Reset text alignment within the list */
+}
+
+.list{
+    padding-left: 20px;
+}
